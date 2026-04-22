@@ -34,9 +34,6 @@ Luxury Solutions is a clean and professional landing page that highlights brandi
 <img width="1276" height="446" alt="Screenshot_48" src="https://github.com/user-attachments/assets/b391a8c9-d6c7-4b52-8705-74af547d956f" />
 <img width="1132" height="523" alt="Screenshot_49" src="https://github.com/user-attachments/assets/f4c607a6-384d-4f89-a375-9fb81a449f4b" />
 <img width="1300" height="510" alt="Screenshot_50" src="https://github.com/user-attachments/assets/c75b06c3-71fc-419f-b95c-abcf1818355e" />
-
-<img width="1345" height="633" alt="Screenshot_51" src="https://github.com/user-attachments/assets/6f99e6f8-b83a-41d9-b89a-e2e0c863dc33" />
-
 <img width="1345" height="626" alt="Screenshot_52" src="https://github.com/user-attachments/assets/4a122925-d7a0-4392-a7c9-ff4a1d4c08f5" />
 
 
