@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Business Solutions | Elegant Design & Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Before </head> -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID');
+  
+  // Track CTA clicks
+  document.querySelectorAll('.btn-primary, .btn-glow').forEach(btn => {
+    btn.addEventListener('click', () => gtag('event', 'cta_click', {'event_category': 'conversion'}));
+  });
+</script>
+
+
+</head><a href="https://wa.me/9647501234567?text=I%27m%20interested%20in%20your%20services" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i> <span>Chat Now</span>
+</a>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                    <span class="logo-text">Luxury<span>Solutions</span></span>
+                </div>
+                <div class="nav-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Work</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="btn-nav">Start Project <i class="fas fa-arrow-right"></i></button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="floating-circle c1"></div>
+            <div class="floating-circle c2"></div>
+            <div class="floating-circle c3"></div>
+            <div class="floating-circle c4"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text reveal">
+                    <h6 class="hero-pre-title">Premium Branding + Websites</h6>
+                    <h1 class="hero-title">Premium Identity and Websites <span class="gradient-text">Built for Leads</span></h1>
+                    <p class="hero-subtitle">We design brand identities and high-converting websites for industry businesses that want more leads and a premium market position.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-glow btn-urgent">
+                            Start Project Today <span>(Only 3 spots left this month)</span>
+                        </button>
+                        <button class="btn btn-secondary btn-ghost">
+                            <i class="fas fa-play-circle"></i> View Industry Case (2:17)
+                        </button>
+                    </div>
+                    <div class="quiz-cta reveal" data-delay="300">
+                        <h3>Find Your Best Package</h3>
+                        <div class="quiz-cta__controls">
+                            <select id="business-type">
+                                <option value="">Select Your Need</option>
+                                <option value="web">Lead-Gen Website</option>
+                                <option value="brand">Brand Identity</option>
+                                <option value="ai">Automation + CRM</option>
+                                <option value="strategy">Brand Strategy</option>
+                            </select>
+                            <button class="quiz-cta__button" onclick="generateProposal()">Get Free Proposal</button>
+                        </div>
+                    </div>
+
+                    <div class="trust-bar">
+                        <span class="trust-pill">Lead-Focused</span>
+                        <span class="trust-pill">Premium Identity</span>
+                        <span>24/7 Support - Money-Back Guarantee</span>
+                    </div>
+
+
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                        
+                            <span class="stat-label">Premium Brands</span>
+                           
+
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Client Retention</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual reveal" data-delay="200">
+                    <div class="hero-visual__glow"></div>
+                    <div class="hero-visual__ring"></div>
+                    <div class="hero-visual__stack">
+                        <div class="hero-visual__card hero-visual__card--main">
+                            <div class="hero-visual__badge">
+                                <i class="fas fa-crown"></i> Premium Identity
+                            </div>
+                            <h4>Brand + Website System</h4>
+                            <p>Unified branding and a lead-first website that looks premium and sells.</p>
+                            <div class="hero-visual__metrics">
+                                <div>
+                                    <span>+42%</span>
+                                    <small>Lead Lift</small>
+                                </div>
+                                <div>
+                                    <span>4-8w</span>
+                                    <small>Delivery</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-visual__card hero-visual__card--side">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h5>Award-Winning</h5>
+                                <p>Design Excellence 2024</p>
+                            </div>
+                        </div>
+                        <div class="hero-visual__card hero-visual__card--side alt">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h5>Fast Delivery</h5>
+                                <p>4-8 Weeks Average</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ABOUT / VALUE -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="section-subtitle">Our Philosophy</h6>
+                <h2 class="section-title">Where Art Meets <span class="highlight">Technology</span></h2>
+                <p class="section-description">We believe in creating digital experiences that are not just functional, but emotionally resonant and timeless.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="card-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>Every pixel, every interaction is crafted with meticulous attention to detail and luxury in mind.</p>
+                    <div class="card-features">
+                        <span><i class="fas fa-check"></i> Hand-coded</span>
+                        <span><i class="fas fa-check"></i> Premium Assets</span>
+                        <span><i class="fas fa-check"></i> 4K Ready</span>
+                    </div>
+                </div>
+                
+                <div class="about-card reveal" data-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered</h3>
+                    <p>Leverage cutting-edge artificial intelligence to automate, optimize, and personalize your digital presence.</p>
+                    <div class="card-features">
+                        <span><i class="fas fa-check"></i> Smart Automation</span>
+                        <span><i class="fas fa-check"></i> Predictive Analytics</span>
+                        <span><i class="fas fa-check"></i> Personalization</span>
+                    </div>
+                </div>
+                
+                <div class="about-card reveal" data-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>Lifetime Support</h3>
+                    <p>Your success is our priority. Enjoy continuous updates, maintenance, and dedicated support forever.</p>
+                    <div class="card-features">
+                        <span><i class="fas fa-check"></i> 24/7 Support</span>
+                        <span><i class="fas fa-check"></i> Regular Updates</span>
+                        <span><i class="fas fa-check"></i> Security Monitoring</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="value-proposition reveal">
+                <div class="problem-side">
+                    <h4>Common Challenges</h4>
+                    <ul class="problem-list">
+                        <li><i class="fas fa-times"></i> Generic Templates</li>
+                        <li><i class="fas fa-times"></i> Poor Performance</li>
+                        <li><i class="fas fa-times"></i> No Brand Identity</li>
+                        <li><i class="fas fa-times"></i> Complex Management</li>
+                    </ul>
+                </div>
+                <div class="arrow-transition">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+                <div class="solution-side">
+                    <h4>Our Solutions</h4>
+                    <ul class="solution-list">
+                        <li><i class="fas fa-check"></i> Custom Designs</li>
+                        <li><i class="fas fa-check"></i> Blazing Fast</li>
+                        <li><i class="fas fa-check"></i> Strong Identity</li>
+                        <li><i class="fas fa-check"></i> Simple Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="section-subtitle">What We Offer</h6>
+                <h2 class="section-title">Comprehensive <span class="highlight">Solutions</span></h2>
+                <p class="section-description">End-to-end services designed to elevate every aspect of your digital presence.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Web Development</h3>
+                        <p>Custom websites and applications built with cutting-edge technology and elegant design principles.</p>
+                        <ul class="service-features">
+                            <li>Responsive Design</li>
+                            <li>Performance Optimized</li>
+                            <li>SEO Ready</li>
+                        </ul>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal" data-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Brand Design</h3>
+                        <p>Complete visual identity systems that communicate your brand's essence and values effectively.</p>
+                        <ul class="service-features">
+                            <li>Logo & Identity</li>
+                            <li>Brand Guidelines</li>
+                            <li>Visual Systems</li>
+                        </ul>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal" data-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>AI Automation</h3>
+                        <p>Intelligent systems that streamline operations, enhance customer experiences, and drive growth.</p>
+                        <ul class="service-features">
+                            <li>Chatbots & Assistants</li>
+                            <li>Process Automation</li>
+                            <li>Predictive Analytics</li>
+                        </ul>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal" data-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Digital Strategy</h3>
+                        <p>Data-driven strategies to maximize your online presence, engagement, and conversion rates.</p>
+                        <ul class="service-features">
+                            <li>Market Analysis</li>
+                            <li>Growth Planning</li>
+                            <li>Competitive Edge</li>
+                        </ul>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services-cta reveal">
+                <p>Need a custom solution? <a href="#contact">Let's discuss your project</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="process" class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="section-subtitle">Our Methodology</h6>
+                <h2 class="section-title">The <span class="highlight">Process</span> of Excellence</h2>
+                <p class="section-description">A systematic approach ensuring quality, transparency, and exceptional results.</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Discovery & Strategy</h3>
+                        <p>Deep dive into your business goals, target audience, and competitive landscape.</p>
+                        <div class="step-duration">
+                            <i class="fas fa-clock"></i> 1-2 Weeks
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step reveal" data-delay="100">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>Design & Prototyping</h3>
+                        <p>Creation of wireframes, visual designs, and interactive prototypes for approval.</p>
+                        <div class="step-duration">
+                            <i class="fas fa-clock"></i> 2-3 Weeks
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step reveal" data-delay="200">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Development</h3>
+                        <p>Clean, efficient coding with modern frameworks and best practices implementation.</p>
+                        <div class="step-duration">
+                            <i class="fas fa-clock"></i> 3-5 Weeks
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step reveal" data-delay="300">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Launch & Support</h3>
+                        <p>Deployment, optimization, and ongoing support to ensure long-term success.</p>
+                        <div class="step-duration">
+                            <i class="fas fa-clock"></i> Ongoing
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="section-subtitle">Our Excellence</h6>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <p class="section-description">A curated selection of our most impactful work for premium clients.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal">
+                    <div class="portfolio-image">
+                        <div class="image-overlay">
+                            <span class="category">Luxury Fashion</span>
+                            <h4>Éclat Collection</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Éclat Fashion House</h3>
+                        <p>Complete e-commerce platform with AR try-on features and personalized shopping experience.</p>
+                        <div class="portfolio-stats">
+                            <span><strong>+240%</strong> Conversions</span>
+                            <span><strong>98%</strong> Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-delay="100">
+                    <div class="portfolio-image">
+                        <div class="image-overlay">
+                            <span class="category">Premium Real Estate</span>
+                            <h4>Vista Estates</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Vista Luxury Properties</h3>
+                        <p>Virtual property tours, intelligent matching system, and secure transaction platform.</p>
+                        <div class="portfolio-stats">
+                            <span><strong>+180%</strong> Engagement</span>
+                            <span><strong>95%</strong> Client Retention</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-delay="200">
+                    <div class="portfolio-image">
+                        <div class="image-overlay">
+                            <span class="category">Fine Dining</span>
+                            <h4>La Maison d'Or</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Michelin Star Restaurant</h3>
+                        <p>Reservation system with AI-powered table optimization and personalized dining experiences.</p>
+                        <div class="portfolio-stats">
+                            <span><strong>+300%</strong> Bookings</span>
+                            <span><strong>99%</strong> Positive Reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta reveal">
+                <button class="btn btn-primary">
+                    View Full Portfolio <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="section-subtitle">Investment Options</h6>
+                <h2 class="section-title">Tailored <span class="highlight">Solutions</span></h2>
+                <p class="section-description">Choose the perfect plan for your business needs and budget.</p>
+            </div>
+            
+            <div class="pricing-toggle">
+                <span>Monthly Billing</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="billing-toggle">
+                    <span class="slider"></span>
+                </label>
+                <span class="annual-option">
+                    Annual Billing <em>Save 20%</em>
+                </span>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="price-card reveal">
+                    <div class="card-header">
+                        <h3>Essential</h3>
+                        <p>For startups and small businesses</p>
+                    </div>
+                    <div class="price">
+                        <span class="amount">$199</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Custom Website</li>
+                        <li><i class="fas fa-check"></i> Basic SEO</li>
+                        <li><i class="fas fa-check"></i> Email Setup</li>
+                        <li><i class="fas fa-check"></i> Standard Support</li>
+                        <li class="disabled"><i class="fas fa-times"></i> AI Features</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Brand Design</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+                
+                <div class="price-card featured reveal" data-delay="100">
+                    <div class="recommended-badge">Most Popular</div>
+                    <div class="card-header">
+                        <h3>Professional</h3>
+                        <p>For growing businesses</p>
+                    </div>
+                    <div class="price">
+                        <span class="amount">$499</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Everything in Essential</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO</li>
+                        <li><i class="fas fa-check"></i> Brand Identity</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Basic AI Automation</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Custom Development</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                
+                <div class="price-card elite reveal" data-delay="200">
+                    <div class="card-header">
+                        <h3>Enterprise</h3>
+                        <p>For established brands</p>
+                    </div>
+                    <div class="price">
+                        <span class="amount">$999</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Everything in Professional</li>
+                        <li><i class="fas fa-check"></i> Custom Development</li>
+                        <li><i class="fas fa-check"></i> Advanced AI Systems</li>
+                        <li><i class="fas fa-check"></i> 24/7 White Glove Support</li>
+                        <li><i class="fas fa-check"></i> Monthly Strategy Sessions</li>
+                        <li><i class="fas fa-check"></i> Performance Analytics</li>
+                    </ul>
+                    <button class="btn btn-secondary">Contact Sales</button>
+                </div>
+            </div>
+            
+            <div class="pricing-note reveal">
+                <p><i class="fas fa-info-circle"></i> All plans include lifetime updates and security patches. Custom quotes available for unique requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="section-subtitle">Client Success</h6>
+                <h2 class="section-title">Trusted by <span class="highlight">Industry Leaders</span></h2>
+                <p class="section-description">Don't just take our word for it - hear from our satisfied clients.</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">Working with Luxury Solutions transformed our digital presence completely. Their attention to detail and commitment to excellence is unmatched. Our conversions increased by 300% within the first quarter.</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/60?img=1" alt="Claire Dubois">
+                        <div class="author-info">
+                            <h4>Claire Dubois</h4>
+                            <p>CEO, Lumière Fashion</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">The level of professionalism and quality delivered exceeded all expectations. Our new platform has not only improved customer experience but also significantly reduced operational costs through intelligent automation.</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/60?img=2" alt="James Harrington">
+                        <div class="author-info">
+                            <h4>James Harrington</h4>
+                            <p>Founder, Elite Realty</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">From concept to launch, the entire process was seamless. Their team treated our project as if it were their own, delivering results that have positioned us as industry leaders. The ROI has been phenomenal.</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/60?img=3" alt="Sophia Laurent">
+                        <div class="author-info">
+                            <h4>Sophia Laurent</h4>
+                            <p>Creative Director, Maison d'Art</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="client-logos reveal">
+                <div class="logo-item"><i class="fas fa-gem"></i> Premium Brands</div>
+                <div class="logo-item"><i class="fas fa-award"></i> Award Winning</div>
+                <div class="logo-item"><i class="fas fa-shield-alt"></i> Trusted Partner</div>
+                <div class="logo-item"><i class="fas fa-rocket"></i> Fast Delivery</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h6 class="section-subtitle">Need Answers?</h6>
+                <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+                <p class="section-description">Find quick answers to common questions about our services and process.</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-column">
+                    <div class="faq-item active">
+                        <div class="faq-question">
+                            <h4>What's included in your development process?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our comprehensive process includes discovery, strategy, design, development, testing, launch, and ongoing support. Each phase includes client collaboration and approval checkpoints.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>How long does a typical project take?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Project timelines vary based on complexity. A standard website takes 4-8 weeks, while comprehensive digital transformations can take 12-16 weeks. We provide detailed timelines during discovery.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Do you offer post-launch support?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, all projects include 3 months of complimentary support. After that, we offer maintenance plans starting at $99/month that include updates, security patches, and priority support.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-column">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What technologies do you work with?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We use modern technologies including React, Vue.js, Node.js, Python, and various CMS platforms. We choose the best stack for each project based on requirements and scalability needs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Can I see examples of your work?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely. We have a curated portfolio of case studies available. For proprietary projects, we can share examples under NDA during a consultation call.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What makes your service "premium"?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our premium service includes dedicated project managers, custom solutions (no templates), hand-coded development, AI integration, 24/7 support, and a focus on luxury user experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-cta reveal">
+                <p>Still have questions? <a href="#contact">Contact our team</a> for personalized answers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text reveal">
+                    <h6 class="cta-subtitle">Ready to Elevate Your Brand?</h6>
+                    <h2 class="cta-title">Let's Build Something <span class="gradient-text">Extraordinary</span> Together</h2>
+                    <p class="cta-description">Schedule a complimentary discovery call to discuss your vision and how we can bring it to life with elegance and innovation.</p>
+                    
+                    <div class="cta-features">
+                        <div class="feature">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>60-Minute Strategy Session</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Custom Roadmap</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-gift"></i>
+                            <span>No Commitment Required</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-form reveal" data-delay="200">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Project Type</option>
+                                <option>Website Development</option>
+                                <option>Brand Design</option>
+                                <option>AI Automation</option>
+                                <option>Complete Solution</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell us about your project..." rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-glow">
+                            Schedule Call <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <span class="logo-icon"><i class="fas fa-crown"></i></span>
+                            <span class="logo-text">Luxury<span>Solutions</span></span>
+                        </div>
+                        <p class="footer-tagline">Elevating brands through elegant design and intelligent technology.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="link-group">
+                            <h4>Services</h4>
+                            <a href="#services">Web Development</a>
+                            <a href="#services">Brand Design</a>
+                            <a href="#services">AI Solutions</a>
+                            <a href="#services">Digital Strategy</a>
+                        </div>
+                        
+                        <div class="link-group">
+                            <h4>Company</h4>
+                            <a href="#about">About Us</a>
+                            <a href="#portfolio">Portfolio</a>
+                            <a href="#process">Process</a>
+                            <a href="#testimonials">Testimonials</a>
+                        </div>
+                        
+                        <div class="link-group">
+                            <h4>Resources</h4>
+                            <a href="#faq">FAQ</a>
+                            <a href="#pricing">Pricing</a>
+                            <a href="#">Blog</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter reveal">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to receive insights on luxury digital trends and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <p>&copy; 2024 Luxury Business Solutions. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <a href="mailto:hello@luxurysolutions.com">
+                        <i class="fas fa-envelope"></i> hello@luxurysolutions.com
+                    </a>
+                    <a href="tel:+11234567890">
+                        <i class="fas fa-phone"></i> +1 (123) 456-7890
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Add before </body> in index.html -->
+<div id="exit-popup" class="popup-overlay">
+  <div class="popup-content">
+    <h3>Wait! Get Your Free Proposal</h3>
+    <p>Custom pricing for your business in 60 seconds</p>
+    <input type="email" placeholder="Business Email">
+    <button>Get Instant Quote</button>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
